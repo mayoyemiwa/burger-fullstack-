@@ -1,0 +1,277 @@
+.signoutNavbar {
+  widows: 100%;
+  height: 100px;
+  background: black;
+}
+
+.count-posi {
+  margin-top: 15px;
+}
+
+.nav-span {
+  position: relative;
+  top: -17px;
+  right: -30px;
+  color: white;
+  font-size: 12px;
+  background-color: red;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 10px;
+  height: 10px;
+  border: 1px blue solid;
+  border-radius: 12px;
+}
+
+.navBuy {
+  cursor: pointer;
+  color: white;
+}
+
+.navbar-collapse {
+  margin-right: -3em;
+  margin-left: 6em;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  background-image: url(../assets/myLogo4.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  margin-right: 200px;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+.logo1 {
+  position: absolute;
+  left: 13px;
+  top: 20px;
+}
+
+.mylogo {
+  position: relative;
+}
+
+.signoutContainer {
+  display: flex;
+  justify-content: space-between
+}
+
+.signoutP {
+  margin-top: 30px;
+  margin-left: 5em;
+  color: white;
+  font-size: 1.3em;
+}
+
+.ul {
+  display: flex;
+  margin-top: 8px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  border: 4px white solid;
+}
+
+.navbar-toggler {
+  border: 4px white solid;
+  background: black;
+}
+
+.navbar-brand {
+  margin-right: 18em;
+  margin-left: 2em;
+  margin-bottom: 23px;
+}
+
+.logout {
+  border-radius: 5px;
+  list-style-type: none;
+  margin-right: 17em;
+}
+
+.h6 {
+  color: white;
+  padding-top: 15px;
+}
+
+.h62{
+  margin-right: 15em;
+}
+
+.navbar-toggler {
+  border: 1px white solid;
+  background: black;
+}
+
+.fs {
+  font-size: 0.8em;
+}
+
+.signup {
+  border: 0.1em white solid;
+  padding: 0.4em;
+  border-radius: 0.5em;
+  width: 5em;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+}
+
+nav>div>div .social>a.google{
+  background: url("../images/24google-logo.jpg") no-repeat center;
+  background-size: 1.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+  border: 0.05em white solid;
+  border-radius: 1em;
+}
+
+nav>div>div .social>a.fb {
+  background: url("../images/fb1.png") no-repeat center;
+  background-size: 1.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+  border: 0.05em white solid;
+  border-radius: 1em;
+}
+
+.tw {
+  background: url("../images/twitter (1).png") no-repeat center;
+  background-size: 1.3em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 0.9em;
+  padding-left: 0.9em;
+  border: 0.05em white solid;
+  border-radius: 1em;
+}
+.tw:hover, .social>a.google:hover, .social>a.fb:hover {
+  border: 0.1em transparent;
+}
+
+.social {
+  margin-right: 2.5em;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.social li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.fb,
+.tw,
+.google {
+  margin-right: 1em;
+}
+
+.navclick {
+  border-bottom: 2px rgb(255, 196, 0) solid;
+}
+
+.navclick2 {
+  list-style-type: none !important;
+  margin-right: 100px !important;
+}
+
+@media(max-width:1300px) {
+  /* .navbar {
+    background-color: rgb(7, 13, 24) !important;
+  } */
+
+  /* .navclick {
+    border-bottom: 2px rgb(255, 0, 0) solid;
+  } */
+
+  .h62{
+    min-width:300px;
+    margin-left: 17em;
+  }
+
+  .myfixed{
+    margin-top: 80px !important;
+  }
+
+  .navbar-brand {
+    margin-right: 3em;
+    margin-left: 0em;
+    padding-left: 0.5em;
+    margin-top: 0px;
+  }
+
+  .navbar-collapse {
+    margin-right: -8em;
+    margin-left: 17em;
+  }
+
+  .social {
+    margin-right: em;
+    justify-content: space-between;
+    margin-right: 8em;
+  }
+}
+
+@media(max-width:1100px) {
+  /* .navbar {
+    background-color: rgb(12, 85, 221) !important;
+  } */
+
+  /* .navclick {
+    border-bottom: 2px rgb(17, 0, 255) solid;
+  } */
+  .myfixed{
+    margin-top: 80px !important;
+  }
+
+  .h62{
+    margin-left: 30em;
+  }
+
+  .navbar-brand {
+    margin-left: 1em;
+    margin-top: 0px;
+  }
+
+  .social {
+    margin-right: 2.5em;
+    justify-content: space-between;
+  }
+
+  .navbar-collapse {
+    margin-right: 2em;
+    margin-left: 13em;
+  }
+}
+
+@media(max-width:990px) {
+  .navclick {
+    border-bottom: 2px rgb(3, 3, 3) solid;
+  }
+
+  .h62{
+    min-width:300px;
+    margin-left: 9em;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .social {
+    margin-right: 2.5em;
+    justify-content: space-between;
+    margin-left: 1em;
+  }
+}
