@@ -7,7 +7,7 @@ const session = require('express-session')
 const MongoStore = require('connect-mongo');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-// const path = require('path');
+const path = require('path');
 
 
 const app = express();
@@ -39,10 +39,6 @@ app.use(session({
     collectionName: "sessions"
   }),
 }))
-// app.use(express.static('build'))
-// app.get('/*', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'build', 'index.html'))
-// });
 
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
@@ -66,6 +62,17 @@ app.get('/check', (req, res)=>{
 })
 
 app.use(authRoutes);
+
+//SERVING THE CLIENT/FRONTEND
+app.use(express.static(path.join(__dirname, "/client/build")))
+app.get('/*', (_, res) => {
+  res.sendFile(
+    path.join(__dirname, 'client', 'build', 'index.html')),
+    (err)=>{
+      res.status(500).send(err)
+    }
+});
+
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
   console.log(`Server is running on port`, PORT)
