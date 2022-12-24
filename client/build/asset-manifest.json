@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8bac9bf3.css",
+    "main.js": "/static/js/main.de3f9b07.js",
+    "static/media/myLogo4.jpg": "/static/media/myLogo4.0d7141cc10dc5e34278b.jpg",
+    "static/media/introduction.png": "/static/media/introduction.97acee82efcda1922b05.png",
+    "static/media/nav.png": "/static/media/nav.fa2671b8e5f86384a8ba.png",
+    "static/media/twitter-logo.png": "/static/media/twitter-logo.03d05063025bafe42a0c.png",
+    "static/media/tw.png": "/static/media/tw.4c35e19757ff75bbf646.png",
+    "static/media/24google-logo.jpg": "/static/media/24google-logo.fffdd1c2c1a66727b754.jpg",
+    "static/media/Facebook_logo.png": "/static/media/Facebook_logo.721f49e64a578377e797.png",
+    "static/media/twitter.png": "/static/media/twitter.87eebd3c6b2640e9f180.png",
+    "static/media/in.png": "/static/media/in.81968199644005cbdc25.png",
+    "static/media/fb.png": "/static/media/fb.065b86a60c33caa70c1f.png",
+    "static/media/logo.png": "/static/media/logo.619ecadc6c3d622c739f.png",
+    "static/media/twitter (1).png": "/static/media/twitter (1).d60350db3a755a75d671.png",
+    "index.html": "/index.html",
+    "main.8bac9bf3.css.map": "/static/css/main.8bac9bf3.css.map",
+    "main.de3f9b07.js.map": "/static/js/main.de3f9b07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bac9bf3.css",
+    "static/js/main.de3f9b07.js"
+  ]
+}
